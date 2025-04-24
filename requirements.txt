@@ -1,2 +1,6 @@
-Flask>=2.0
+streamlit
+nltk
 scikit-learn>=1.0
+matplotlib
+seaborn
+Flask>=2.0
