@@ -1,10 +1,8 @@
-from flask import Flask, render_template, request, jsonify
+import streamlit as st
 import json
 import re
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
-
-app = Flask(__name__)
 
 # Load health dataset
 with open("improved_health_dataset_with_realistic_medicines.json") as f:
@@ -76,100 +74,131 @@ def match_disease_tfidf(user_input):
         return symptom_lookup[best_match_idx]
     return None
 
-@app.route("/")
-def index():
-    return render_template("index.html")
+# Streamlit UI
+def chatbot():
+    st.set_page_config(page_title="Healthcare Chatbot", page_icon="🧑‍⚕️", layout="centered")
 
-@app.route("/chat", methods=["POST"])
-def chat():
-    msg = request.json["message"].strip().lower()
+    if "messages" not in st.session_state:
+        st.session_state["messages"] = []
 
-    exit_keywords = [
-        "bye", "goodbye", "thank you", "thanks", "see you",
-        "exit", "quit", "talk to you later", "that's all", "done", "ok bye"
-    ]
-    
-    if any(kw in msg for kw in exit_keywords):
-        user_name = state.get("name")
-        goodbye = f"👋 Take care, {user_name.capitalize()}! Wishing you good health. Goodbye!" if user_name else "👋 Take care! Wishing you good health. Goodbye!"
-        state.update({k: None if isinstance(v, str) else [] for k, v in state.items()})
-        return jsonify({"reply": goodbye})
+    if "name" not in st.session_state:
+        st.session_state["name"] = None
 
-    name_match = re.search(r"(?:i\s*am|i'm|this is|my name is|iam)\s+([a-zA-Z]+)", msg, re.IGNORECASE)
-    if name_match:
-        name = name_match.group(1).capitalize()
-        state["name"] = name
-        return jsonify({"reply": f"😊 Nice to meet you, {name}! How can I assist you today?"})
+    def add_message(message, sender):
+        st.session_state.messages.append({"message": message, "sender": sender})
 
-    if msg in ["hello", "hi", "hai"]:
-        greeting = "👋 Hello!"
-        if state["name"]:
-            greeting += f" How can I help you today, {state['name'].capitalize()}?"
+    def display_chat():
+        for message in st.session_state.messages:
+            if message["sender"] == "user":
+                st.markdown(f"**🧑‍💻 {message['message']}**")
+            else:
+                st.markdown(f"**🧑‍⚕️ {message['message']}**")
+
+    # Display chat history
+    display_chat()
+
+    # User input for chat
+    user_input = st.text_input("Type your message here...", "")
+    if user_input:
+        add_message(user_input, "user")
+
+        # Process message
+        msg = user_input.strip().lower()
+
+        exit_keywords = [
+            "bye", "goodbye", "thank you", "thanks", "see you",
+            "exit", "quit", "talk to you later", "that's all", "done", "ok bye"
+        ]
+        
+        if any(kw in msg for kw in exit_keywords):
+            goodbye = f"👋 Take care, {st.session_state['name']}! Wishing you good health. Goodbye!" if st.session_state["name"] else "👋 Take care! Wishing you good health. Goodbye!"
+            add_message(goodbye, "bot")
+            st.session_state["messages"] = []
+            return
+
+        name_match = re.search(r"(?:i\s*am|i'm|this is|my name is|iam)\s+([a-zA-Z]+)", msg, re.IGNORECASE)
+        if name_match:
+            name = name_match.group(1).capitalize()
+            st.session_state["name"] = name
+            add_message(f"😊 Nice to meet you, {name}! How can I assist you today?", "bot")
+            return
+
+        if msg in ["hello", "hi", "hai"]:
+            greeting = "👋 Hello!"
+            if st.session_state["name"]:
+                greeting += f" How can I help you today, {st.session_state['name']}?"
+            else:
+                greeting += " How can I help you today?"
+            add_message(greeting, "bot")
+            return
+
+        if st.session_state["awaiting"] == "age":
+            try:
+                st.session_state["age"] = int(msg)
+                st.session_state["awaiting"] = "gender"
+                add_message("🚻 Please enter your gender (male/female):", "bot")
+                return
+            except:
+                add_message("❌ Please enter a valid age.", "bot")
+                return
+
+        if st.session_state["awaiting"] == "gender":
+            if msg in ["male", "female"]:
+                st.session_state["gender"] = msg
+                age_group = get_age_group(st.session_state["age"])
+
+                for disease in health_data["diseases"]:
+                    if disease["disease"] == st.session_state["disease"]:
+                        for dtype in disease["types"]:
+                            if dtype["type"] == st.session_state["type"]:
+                                for level in dtype["levels"]:
+                                    if level["severity"] == st.session_state["severity"]:
+                                        for group in level["groups"]:
+                                            if group["age_group"] == age_group and group["gender"] == st.session_state["gender"]:
+                                                reply = (
+                                                    f"🩺 Diagnosis: <b>{st.session_state['disease']} ({st.session_state['type']})</b><br>"
+                                                    f"🔺 Severity: <b>{st.session_state['severity'].capitalize()}</b><br>"
+                                                    f"🎂 Age: {st.session_state['age']} | Gender: {st.session_state['gender'].capitalize()}<br><br>"
+                                                    f"💊 <b>Medicine:</b> {group['medicine']}<br>"
+                                                    f"📏 <b>Dosage:</b> {group['dosage']}<br>"
+                                                    f"🥗 <b>Diet:</b> {group['diet']}<br>"
+                                                    f"⚠️ <b>Precautions:</b> {group['precautions']}<br><br>"
+                                                    f"📌 <i>Note: Always consult a doctor before taking any medicine.</i>"
+                                                )
+                                                add_message(reply, "bot")
+                                                st.session_state["messages"] = []
+                                                return
+
+                add_message("⚠️ No specific recommendation for this age/gender group. Please consult a doctor.", "bot")
+                return
+            else:
+                add_message("❌ Please enter gender as 'male' or 'female'.", "bot")
+                return
+
+        # Step 1: Rule-based symptom detection
+        detected = [s for s in all_symptoms if s in msg and s not in st.session_state["symptoms"]]
+        st.session_state["symptoms"].extend(detected)
+
+        result = find_matching_disease(st.session_state["symptoms"])
+
+        # Step 2: Use TF-IDF + Cosine Similarity if rule-based fails
+        if not result:
+            result = match_disease_tfidf(msg)
+
+        if result:
+            st.session_state["disease"] = result["disease"]
+            st.session_state["type"] = result["type"]
+            st.session_state["severity"] = result["severity"]
+            st.session_state["awaiting"] = "age"
+            add_message(f"✅ Detected disease: <b>{st.session_state['disease']} ({st.session_state['type']})</b><br>"
+                        f"❗ Severity level: {st.session_state['severity'].capitalize()}<br>"
+                        f"🎂 Please enter your age:", "bot")
+        elif detected:
+            add_message(f"📝 Noted symptoms: {', '.join(st.session_state['symptoms'])}.<br>"
+                        f"Please describe more symptoms.", "bot")
         else:
-            greeting += " How can I help you today?"
-        return jsonify({"reply": greeting})
+            add_message("❓ Please describe your symptoms clearly so I can assist you better.", "bot")
 
-    if state["awaiting"] == "age":
-        try:
-            state["age"] = int(msg)
-            state["awaiting"] = "gender"
-            return jsonify({"reply": "🚻 Please enter your gender (male/female):"})
-        except:
-            return jsonify({"reply": "❌ Please enter a valid age."})
-
-    if state["awaiting"] == "gender":
-        if msg in ["male", "female"]:
-            state["gender"] = msg
-            age_group = get_age_group(state["age"])
-
-            for disease in health_data["diseases"]:
-                if disease["disease"] == state["disease"]:
-                    for dtype in disease["types"]:
-                        if dtype["type"] == state["type"]:
-                            for level in dtype["levels"]:
-                                if level["severity"] == state["severity"]:
-                                    for group in level["groups"]:
-                                        if group["age_group"] == age_group and group["gender"] == state["gender"]:
-                                            reply = (
-                                                f"🩺 Diagnosis: <b>{state['disease']} ({state['type']})</b><br>"
-                                                f"🔺 Severity: <b>{state['severity'].capitalize()}</b><br>"
-                                                f"🎂 Age: {state['age']} | Gender: {state['gender'].capitalize()}<br><br>"
-                                                f"💊 <b>Medicine:</b> {group['medicine']}<br>"
-                                                f"📏 <b>Dosage:</b> {group['dosage']}<br>"
-                                                f"🥗 <b>Diet:</b> {group['diet']}<br>"
-                                                f"⚠️ <b>Precautions:</b> {group['precautions']}<br><br>"
-                                                f"📌 <i>Note: Always consult a doctor before taking any medicine.</i>"
-                                            )
-                                            state.update({k: None if isinstance(v, str) else [] for k, v in state.items()})
-                                            return jsonify({"reply": reply})
-
-            return jsonify({"reply": "⚠️ No specific recommendation for this age/gender group. Please consult a doctor."})
-        else:
-            return jsonify({"reply": "❌ Please enter gender as 'male' or 'female'."})
-
-    # Step 1: Rule-based symptom detection
-    detected = [s for s in all_symptoms if s in msg and s not in state["symptoms"]]
-    state["symptoms"].extend(detected)
-
-    result = find_matching_disease(state["symptoms"])
-
-    # Step 2: Use TF-IDF + Cosine Similarity if rule-based fails
-    if not result:
-        result = match_disease_tfidf(msg)
-
-    if result:
-        state["disease"] = result["disease"]
-        state["type"] = result["type"]
-        state["severity"] = result["severity"]
-        state["awaiting"] = "age"
-        return jsonify({"reply": f"✅ Detected disease: <b>{state['disease']} ({state['type']})</b><br>"
-                                 f"❗ Severity level: {state['severity'].capitalize()}<br>"
-                                 f"🎂 Please enter your age:"})
-    elif detected:
-        return jsonify({"reply": f"📝 Noted symptoms: {', '.join(state['symptoms'])}.<br>"
-                                 f"Please describe more symptoms."})
-
-    return jsonify({"reply": "❓ Please describe your symptoms clearly so I can assist you better."})
-
+# Run the Streamlit app
 if __name__ == "__main__":
-    app.run(debug=True)
+    chatbot()
