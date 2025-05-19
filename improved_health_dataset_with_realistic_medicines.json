@@ -1,0 +1,2733 @@
+{
+  "diseases": [
+    {
+      "disease": "Fever",
+      "types": [
+        {
+          "type": "Viral",
+          "levels": [
+            {
+              "severity": "mild",
+              "groups": [
+                {
+                  "age_group": "children",
+                  "gender": "male",
+                  "symptoms": [
+                    "low-grade fever",
+                    "fatigue"
+                  ],
+                  "medicine": "Paracetamol 250mg ",
+                  "dosage": "5 ml or 250mg",
+                  "diet": "hydration, light food",
+                  "precautions": "rest, monitor temperature"
+                },
+                {
+                  "age_group": "children",
+                  "gender": "female",
+                  "symptoms": [
+                    "low-grade fever",
+                    "fatigue"
+                  ],
+                  "medicine": "Paracetamol 250mg",
+                  "dosage": "5 ml or 250mg",
+                  "diet": "hydration, light food",
+                  "precautions": "rest, monitor temperature"
+                },
+                {
+                  "age_group": "adults",
+                  "gender": "male",
+                  "symptoms": [
+                    "low-grade fever",
+                    "fatigue"
+                  ],
+                  "medicine": "Paracetamol 500mg ",
+                  "dosage": "1 tablet 500mg",
+                  "diet": "hydration, light food",
+                  "precautions": "rest, monitor temperature"
+                },
+                {
+                  "age_group": "adults",
+                  "gender": "female",
+                  "symptoms": [
+                    "low-grade fever",
+                    "fatigue"
+                  ],
+                  "medicine": "Paracetamol 500mg",
+                  "dosage": "1 tablet 500mg",
+                  "diet": "hydration, light food",
+                  "precautions": "rest, monitor temperature"
+                },
+                {
+                  "age_group": "oldage",
+                  "gender": "male",
+                  "symptoms": [
+                    "low-grade fever",
+                    "fatigue"
+                  ],
+                  "medicine": "Paracetamol 500mg",
+                  "dosage": "1 tablet 250mg",
+                  "diet": "hydration, light food",
+                  "precautions": "rest, monitor temperature"
+                },
+                {
+                  "age_group": "oldage",
+                  "gender": "female",
+                  "symptoms": [
+                    "low-grade fever",
+                    "fatigue"
+                  ],
+                  "medicine": "Paracetamol 500mg",
+                  "dosage": "1 tablet 250mg",
+                  "diet": "hydration, light food",
+                  "precautions": "rest, monitor temperature"
+                }
+              ]
+            },
+            {
+              "severity": "moderate",
+              "groups": [
+                {
+                  "age_group": "children",
+                  "gender": "male",
+                  "symptoms": [
+                    "high fever",
+                    "chills",
+                    "body ache"
+                  ],
+                  "medicine": "Paracetamol + Ibuprofen",
+                  "dosage": "5 ml or 250mg",
+                  "diet": "hydration, light food",
+                  "precautions": "rest, monitor temperature"
+                },
+                {
+                  "age_group": "children",
+                  "gender": "female",
+                  "symptoms": [
+                    "high fever",
+                    "chills",
+                    "body ache"
+                  ],
+                  "medicine": "Paracetamol + Ibuprofen",
+                  "dosage": "5 ml or 250mg",
+                  "diet": "hydration, light food",
+                  "precautions": "rest, monitor temperature"
+                },
+                {
+                  "age_group": "adults",
+                  "gender": "male",
+                  "symptoms": [
+                    "high fever",
+                    "chills",
+                    "body ache"
+                  ],
+                  "medicine": "Paracetamol + Ibuprofen",
+                  "dosage": "1 tablet 500mg",
+                  "diet": "hydration, light food",
+                  "precautions": "rest, monitor temperature"
+                },
+                {
+                  "age_group": "adults",
+                  "gender": "female",
+                  "symptoms": [
+                    "high fever",
+                    "chills",
+                    "body ache"
+                  ],
+                  "medicine": "Paracetamol + Ibuprofen",
+                  "dosage": "1 tablet 500mg",
+                  "diet": "hydration, light food",
+                  "precautions": "rest, monitor temperature"
+                },
+                {
+                  "age_group": "oldage",
+                  "gender": "male",
+                  "symptoms": [
+                    "high fever",
+                    "chills",
+                    "body ache"
+                  ],
+                  "medicine": "Paracetamol + Ibuprofen",
+                  "dosage": "1 tablet 250mg",
+                  "diet": "hydration, light food",
+                  "precautions": "rest, monitor temperature"
+                },
+                {
+                  "age_group": "oldage",
+                  "gender": "female",
+                  "symptoms": [
+                    "high fever",
+                    "chills",
+                    "body ache"
+                  ],
+                  "medicine": "Paracetamol + Ibuprofen",
+                  "dosage": "1 tablet 250mg",
+                  "diet": "hydration, light food",
+                  "precautions": "rest, monitor temperature"
+                }
+              ]
+            },
+            {
+              "severity": "severe",
+              "groups": [
+                {
+                  "age_group": "children",
+                  "gender": "male",
+                  "symptoms": [
+                    "persistent high fever",
+                    "delirium",
+                    "dehydration"
+                  ],
+                  "medicine": "IV fluids, Antipyretics, Hospital observation",
+                  "dosage": "5 ml or 250mg",
+                  "diet": "hydration, light food",
+                  "precautions": "rest, monitor temperature"
+                },
+                {
+                  "age_group": "children",
+                  "gender": "female",
+                  "symptoms": [
+                    "persistent high fever",
+                    "delirium",
+                    "dehydration"
+                  ],
+                  "medicine": "IV fluids, Antipyretics, Hospital observation",
+                  "dosage": "5 ml or 250mg",
+                  "diet": "hydration, light food",
+                  "precautions": "rest, monitor temperature"
+                },
+                {
+                  "age_group": "adults",
+                  "gender": "male",
+                  "symptoms": [
+                    "persistent high fever",
+                    "delirium",
+                    "dehydration"
+                  ],
+                  "medicine": "IV fluids, Antipyretics, Hospital observation",
+                  "dosage": "1 tablet 500mg",
+                  "diet": "hydration, light food",
+                  "precautions": "rest, monitor temperature"
+                },
+                {
+                  "age_group": "adults",
+                  "gender": "female",
+                  "symptoms": [
+                    "persistent high fever",
+                    "delirium",
+                    "dehydration"
+                  ],
+                  "medicine": "IV fluids, Antipyretics, Hospital observation",
+                  "dosage": "1 tablet 500mg",
+                  "diet": "hydration, light food",
+                  "precautions": "rest, monitor temperature"
+                },
+                {
+                  "age_group": "oldage",
+                  "gender": "male",
+                  "symptoms": [
+                    "persistent high fever",
+                    "delirium",
+                    "dehydration"
+                  ],
+                  "medicine": "IV fluids, Antipyretics, Hospital observation",
+                  "dosage": "1 tablet 250mg",
+                  "diet": "hydration, light food",
+                  "precautions": "rest, monitor temperature"
+                },
+                {
+                  "age_group": "oldage",
+                  "gender": "female",
+                  "symptoms": [
+                    "persistent high fever",
+                    "delirium",
+                    "dehydration"
+                  ],
+                  "medicine": "IV fluids, Antipyretics, Hospital observation",
+                  "dosage": "1 tablet 250mg",
+                  "diet": "hydration, light food",
+                  "precautions": "rest, monitor temperature"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Typhoid",
+          "levels": [
+            {
+              "severity": "mild",
+              "groups": [
+                {
+                  "age_group": "children",
+                  "gender": "male",
+                  "symptoms": [
+                    "low-grade fever",
+                    "fatigue"
+                  ],
+                  "medicine": "Cefixime",
+                  "dosage": "5 ml or 250mg",
+                  "diet": "hydration, light food",
+                  "precautions": "rest, monitor temperature"
+                },
+                {
+                  "age_group": "children",
+                  "gender": "female",
+                  "symptoms": [
+                    "low-grade fever",
+                    "fatigue"
+                  ],
+                  "medicine": "Cefixime",
+                  "dosage": "5 ml or 250mg",
+                  "diet": "hydration, light food",
+                  "precautions": "rest, monitor temperature"
+                },
+                {
+                  "age_group": "adults",
+                  "gender": "male",
+                  "symptoms": [
+                    "low-grade fever",
+                    "fatigue"
+                  ],
+                  "medicine": "Cefixime",
+                  "dosage": "1 tablet 500mg",
+                  "diet": "hydration, light food",
+                  "precautions": "rest, monitor temperature"
+                },
+                {
+                  "age_group": "adults",
+                  "gender": "female",
+                  "symptoms": [
+                    "low-grade fever",
+                    "fatigue"
+                  ],
+                  "medicine": "Cefixime",
+                  "dosage": "1 tablet 500mg",
+                  "diet": "hydration, light food",
+                  "precautions": "rest, monitor temperature"
+                },
+                {
+                  "age_group": "oldage",
+                  "gender": "male",
+                  "symptoms": [
+                    "low-grade fever",
+                    "fatigue"
+                  ],
+                  "medicine": "Cefixime",
+                  "dosage": "1 tablet 250mg",
+                  "diet": "hydration, light food",
+                  "precautions": "rest, monitor temperature"
+                },
+                {
+                  "age_group": "oldage",
+                  "gender": "female",
+                  "symptoms": [
+                    "low-grade fever",
+                    "fatigue"
+                  ],
+                  "medicine": "Cefixime",
+                  "dosage": "1 tablet 250mg",
+                  "diet": "hydration, light food",
+                  "precautions": "rest, monitor temperature"
+                }
+              ]
+            },
+            {
+              "severity": "moderate",
+              "groups": [
+                {
+                  "age_group": "children",
+                  "gender": "male",
+                  "symptoms": [
+                    "high fever",
+                    "chills",
+                    "body ache"
+                  ],
+                  "medicine": "Cefixime + Azithromycin",
+                  "dosage": "5 ml or 250mg",
+                  "diet": "hydration, light food",
+                  "precautions": "rest, monitor temperature"
+                },
+                {
+                  "age_group": "children",
+                  "gender": "female",
+                  "symptoms": [
+                    "high fever",
+                    "chills",
+                    "body ache"
+                  ],
+                  "medicine": "Cefixime + Azithromycin",
+                  "dosage": "5 ml or 250mg",
+                  "diet": "hydration, light food",
+                  "precautions": "rest, monitor temperature"
+                },
+                {
+                  "age_group": "adults",
+                  "gender": "male",
+                  "symptoms": [
+                    "high fever",
+                    "chills",
+                    "body ache"
+                  ],
+                  "medicine": "Cefixime + Azithromycin",
+                  "dosage": "1 tablet 500mg",
+                  "diet": "hydration, light food",
+                  "precautions": "rest, monitor temperature"
+                },
+                {
+                  "age_group": "adults",
+                  "gender": "female",
+                  "symptoms": [
+                    "high fever",
+                    "chills",
+                    "body ache"
+                  ],
+                  "medicine": "Cefixime + Azithromycin",
+                  "dosage": "1 tablet 500mg",
+                  "diet": "hydration, light food",
+                  "precautions": "rest, monitor temperature"
+                },
+                {
+                  "age_group": "oldage",
+                  "gender": "male",
+                  "symptoms": [
+                    "high fever",
+                    "chills",
+                    "body ache"
+                  ],
+                  "medicine": "Cefixime + Azithromycin",
+                  "dosage": "1 tablet 250mg",
+                  "diet": "hydration, light food",
+                  "precautions": "rest, monitor temperature"
+                },
+                {
+                  "age_group": "oldage",
+                  "gender": "female",
+                  "symptoms": [
+                    "high fever",
+                    "chills",
+                    "body ache"
+                  ],
+                  "medicine": "Cefixime + Azithromycin",
+                  "dosage": "1 tablet 250mg",
+                  "diet": "hydration, light food",
+                  "precautions": "rest, monitor temperature"
+                }
+              ]
+            },
+            {
+              "severity": "severe",
+              "groups": [
+                {
+                  "age_group": "children",
+                  "gender": "male",
+                  "symptoms": [
+                    "persistent high fever",
+                    "delirium",
+                    "dehydration"
+                  ],
+                  "medicine": "Ceftriaxone IV, hospitalization",
+                  "dosage": "5 ml or 250mg",
+                  "diet": "hydration, light food",
+                  "precautions": "rest, monitor temperature"
+                },
+                {
+                  "age_group": "children",
+                  "gender": "female",
+                  "symptoms": [
+                    "persistent high fever",
+                    "delirium",
+                    "dehydration"
+                  ],
+                  "medicine": "Ceftriaxone IV, hospitalization",
+                  "dosage": "5 ml or 250mg",
+                  "diet": "hydration, light food",
+                  "precautions": "rest, monitor temperature"
+                },
+                {
+                  "age_group": "adults",
+                  "gender": "male",
+                  "symptoms": [
+                    "persistent high fever",
+                    "delirium",
+                    "dehydration"
+                  ],
+                  "medicine": "Ceftriaxone IV, hospitalization",
+                  "dosage": "1 tablet 500mg",
+                  "diet": "hydration, light food",
+                  "precautions": "rest, monitor temperature"
+                },
+                {
+                  "age_group": "adults",
+                  "gender": "female",
+                  "symptoms": [
+                    "persistent high fever",
+                    "delirium",
+                    "dehydration"
+                  ],
+                  "medicine": "Ceftriaxone IV, hospitalization",
+                  "dosage": "1 tablet 500mg",
+                  "diet": "hydration, light food",
+                  "precautions": "rest, monitor temperature"
+                },
+                {
+                  "age_group": "oldage",
+                  "gender": "male",
+                  "symptoms": [
+                    "persistent high fever",
+                    "delirium",
+                    "dehydration"
+                  ],
+                  "medicine": "Ceftriaxone IV, hospitalization",
+                  "dosage": "1 tablet 250mg",
+                  "diet": "hydration, light food",
+                  "precautions": "rest, monitor temperature"
+                },
+                {
+                  "age_group": "oldage",
+                  "gender": "female",
+                  "symptoms": [
+                    "persistent high fever",
+                    "delirium",
+                    "dehydration"
+                  ],
+                  "medicine": "Ceftriaxone IV, hospitalization",
+                  "dosage": "1 tablet 250mg",
+                  "diet": "hydration, light food",
+                  "precautions": "rest, monitor temperature"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Dengue",
+          "levels": [
+            {
+              "severity": "mild",
+              "groups": [
+                {
+                  "age_group": "children",
+                  "gender": "male",
+                  "symptoms": [
+                    "low-grade fever",
+                    "fatigue"
+                  ],
+                  "medicine": "Paracetamol only (avoid NSAIDs)",
+                  "dosage": "5 ml or 250mg",
+                  "diet": "hydration, light food",
+                  "precautions": "rest, monitor temperature"
+                },
+                {
+                  "age_group": "children",
+                  "gender": "female",
+                  "symptoms": [
+                    "low-grade fever",
+                    "fatigue"
+                  ],
+                  "medicine": "Paracetamol only (avoid NSAIDs)",
+                  "dosage": "5 ml or 250mg",
+                  "diet": "hydration, light food",
+                  "precautions": "rest, monitor temperature"
+                },
+                {
+                  "age_group": "adults",
+                  "gender": "male",
+                  "symptoms": [
+                    "low-grade fever",
+                    "fatigue"
+                  ],
+                  "medicine": "Paracetamol only (avoid NSAIDs)",
+                  "dosage": "1 tablet 500mg",
+                  "diet": "hydration, light food",
+                  "precautions": "rest, monitor temperature"
+                },
+                {
+                  "age_group": "adults",
+                  "gender": "female",
+                  "symptoms": [
+                    "low-grade fever",
+                    "fatigue"
+                  ],
+                  "medicine": "Paracetamol only (avoid NSAIDs)",
+                  "dosage": "1 tablet 500mg",
+                  "diet": "hydration, light food",
+                  "precautions": "rest, monitor temperature"
+                },
+                {
+                  "age_group": "oldage",
+                  "gender": "male",
+                  "symptoms": [
+                    "low-grade fever",
+                    "fatigue"
+                  ],
+                  "medicine": "Paracetamol only (avoid NSAIDs)",
+                  "dosage": "1 tablet 250mg",
+                  "diet": "hydration, light food",
+                  "precautions": "rest, monitor temperature"
+                },
+                {
+                  "age_group": "oldage",
+                  "gender": "female",
+                  "symptoms": [
+                    "low-grade fever",
+                    "fatigue"
+                  ],
+                  "medicine": "Paracetamol only (avoid NSAIDs)",
+                  "dosage": "1 tablet 250mg",
+                  "diet": "hydration, light food",
+                  "precautions": "rest, monitor temperature"
+                }
+              ]
+            },
+            {
+              "severity": "moderate",
+              "groups": [
+                {
+                  "age_group": "children",
+                  "gender": "male",
+                  "symptoms": [
+                    "high fever",
+                    "chills",
+                    "body ache"
+                  ],
+                  "medicine": "Paracetamol + Oral rehydration",
+                  "dosage": "5 ml or 250mg",
+                  "diet": "hydration, light food",
+                  "precautions": "rest, monitor temperature"
+                },
+                {
+                  "age_group": "children",
+                  "gender": "female",
+                  "symptoms": [
+                    "high fever",
+                    "chills",
+                    "body ache"
+                  ],
+                  "medicine": "Paracetamol + Oral rehydration",
+                  "dosage": "5 ml or 250mg",
+                  "diet": "hydration, light food",
+                  "precautions": "rest, monitor temperature"
+                },
+                {
+                  "age_group": "adults",
+                  "gender": "male",
+                  "symptoms": [
+                    "high fever",
+                    "chills",
+                    "body ache"
+                  ],
+                  "medicine": "Paracetamol + Oral rehydration",
+                  "dosage": "1 tablet 500mg",
+                  "diet": "hydration, light food",
+                  "precautions": "rest, monitor temperature"
+                },
+                {
+                  "age_group": "adults",
+                  "gender": "female",
+                  "symptoms": [
+                    "high fever",
+                    "chills",
+                    "body ache"
+                  ],
+                  "medicine": "Paracetamol + Oral rehydration",
+                  "dosage": "1 tablet 500mg",
+                  "diet": "hydration, light food",
+                  "precautions": "rest, monitor temperature"
+                },
+                {
+                  "age_group": "oldage",
+                  "gender": "male",
+                  "symptoms": [
+                    "high fever",
+                    "chills",
+                    "body ache"
+                  ],
+                  "medicine": "Paracetamol + Oral rehydration",
+                  "dosage": "1 tablet 250mg",
+                  "diet": "hydration, light food",
+                  "precautions": "rest, monitor temperature"
+                },
+                {
+                  "age_group": "oldage",
+                  "gender": "female",
+                  "symptoms": [
+                    "high fever",
+                    "chills",
+                    "body ache"
+                  ],
+                  "medicine": "Paracetamol + Oral rehydration",
+                  "dosage": "1 tablet 250mg",
+                  "diet": "hydration, light food",
+                  "precautions": "rest, monitor temperature"
+                }
+              ]
+            },
+            {
+              "severity": "severe",
+              "groups": [
+                {
+                  "age_group": "children",
+                  "gender": "male",
+                  "symptoms": [
+                    "persistent high fever",
+                    "delirium",
+                    "dehydration"
+                  ],
+                  "medicine": "IV fluids, platelet monitoring, hospitalization",
+                  "dosage": "5 ml or 250mg",
+                  "diet": "hydration, light food",
+                  "precautions": "rest, monitor temperature"
+                },
+                {
+                  "age_group": "children",
+                  "gender": "female",
+                  "symptoms": [
+                    "persistent high fever",
+                    "delirium",
+                    "dehydration"
+                  ],
+                  "medicine": "IV fluids, platelet monitoring, hospitalization",
+                  "dosage": "5 ml or 250mg",
+                  "diet": "hydration, light food",
+                  "precautions": "rest, monitor temperature"
+                },
+                {
+                  "age_group": "adults",
+                  "gender": "male",
+                  "symptoms": [
+                    "persistent high fever",
+                    "delirium",
+                    "dehydration"
+                  ],
+                  "medicine": "IV fluids, platelet monitoring, hospitalization",
+                  "dosage": "1 tablet 500mg",
+                  "diet": "hydration, light food",
+                  "precautions": "rest, monitor temperature"
+                },
+                {
+                  "age_group": "adults",
+                  "gender": "female",
+                  "symptoms": [
+                    "persistent high fever",
+                    "delirium",
+                    "dehydration"
+                  ],
+                  "medicine": "IV fluids, platelet monitoring, hospitalization",
+                  "dosage": "1 tablet 500mg",
+                  "diet": "hydration, light food",
+                  "precautions": "rest, monitor temperature"
+                },
+                {
+                  "age_group": "oldage",
+                  "gender": "male",
+                  "symptoms": [
+                    "persistent high fever",
+                    "delirium",
+                    "dehydration"
+                  ],
+                  "medicine": "IV fluids, platelet monitoring, hospitalization",
+                  "dosage": "1 tablet 250mg",
+                  "diet": "hydration, light food",
+                  "precautions": "rest, monitor temperature"
+                },
+                {
+                  "age_group": "oldage",
+                  "gender": "female",
+                  "symptoms": [
+                    "persistent high fever",
+                    "delirium",
+                    "dehydration"
+                  ],
+                  "medicine": "IV fluids, platelet monitoring, hospitalization",
+                  "dosage": "1 tablet 250mg",
+                  "diet": "hydration, light food",
+                  "precautions": "rest, monitor temperature"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "disease": "Hypertension",
+      "types": [
+        {
+          "type": "Primary",
+          "levels": [
+            {
+              "severity": "mild",
+              "groups": [
+                {
+                  "age_group": "children",
+                  "gender": "male",
+                  "symptoms": [
+                    "slightly elevated BP",
+                    "headache"
+                  ],
+                  "medicine": "Lifestyle changes + Amlodipine",
+                  "dosage": "5 ml or 250mg",
+                  "diet": "low-sodium diet",
+                  "precautions": "BP checks, low salt"
+                },
+                {
+                  "age_group": "children",
+                  "gender": "female",
+                  "symptoms": [
+                    "slightly elevated BP",
+                    "headache"
+                  ],
+                  "medicine": "Lifestyle changes + Amlodipine",
+                  "dosage": "5 ml or 250mg",
+                  "diet": "low-sodium diet",
+                  "precautions": "BP checks, low salt"
+                },
+                {
+                  "age_group": "adults",
+                  "gender": "male",
+                  "symptoms": [
+                    "slightly elevated BP",
+                    "headache"
+                  ],
+                  "medicine": "Lifestyle changes + Amlodipine",
+                  "dosage": "1 tablet 500mg",
+                  "diet": "low-sodium diet",
+                  "precautions": "BP checks, low salt"
+                },
+                {
+                  "age_group": "adults",
+                  "gender": "female",
+                  "symptoms": [
+                    "slightly elevated BP",
+                    "headache"
+                  ],
+                  "medicine": "Lifestyle changes + Amlodipine",
+                  "dosage": "1 tablet 500mg",
+                  "diet": "low-sodium diet",
+                  "precautions": "BP checks, low salt"
+                },
+                {
+                  "age_group": "oldage",
+                  "gender": "male",
+                  "symptoms": [
+                    "slightly elevated BP",
+                    "headache"
+                  ],
+                  "medicine": "Lifestyle changes + Amlodipine",
+                  "dosage": "1 tablet 250mg",
+                  "diet": "low-sodium diet",
+                  "precautions": "BP checks, low salt"
+                },
+                {
+                  "age_group": "oldage",
+                  "gender": "female",
+                  "symptoms": [
+                    "slightly elevated BP",
+                    "headache"
+                  ],
+                  "medicine": "Lifestyle changes + Amlodipine",
+                  "dosage": "1 tablet 250mg",
+                  "diet": "low-sodium diet",
+                  "precautions": "BP checks, low salt"
+                }
+              ]
+            },
+            {
+              "severity": "moderate",
+              "groups": [
+                {
+                  "age_group": "children",
+                  "gender": "male",
+                  "symptoms": [
+                    "moderate BP",
+                    "dizziness",
+                    "palpitations"
+                  ],
+                  "medicine": "Amlodipine + Beta blocker (e.g., Atenolol)",
+                  "dosage": "5 ml or 250mg",
+                  "diet": "low-sodium diet",
+                  "precautions": "BP checks, low salt"
+                },
+                {
+                  "age_group": "children",
+                  "gender": "female",
+                  "symptoms": [
+                    "moderate BP",
+                    "dizziness",
+                    "palpitations"
+                  ],
+                  "medicine": "Amlodipine + Beta blocker (e.g., Atenolol)",
+                  "dosage": "5 ml or 250mg",
+                  "diet": "low-sodium diet",
+                  "precautions": "BP checks, low salt"
+                },
+                {
+                  "age_group": "adults",
+                  "gender": "male",
+                  "symptoms": [
+                    "moderate BP",
+                    "dizziness",
+                    "palpitations"
+                  ],
+                  "medicine": "Amlodipine + Beta blocker (e.g., Atenolol)",
+                  "dosage": "1 tablet 500mg",
+                  "diet": "low-sodium diet",
+                  "precautions": "BP checks, low salt"
+                },
+                {
+                  "age_group": "adults",
+                  "gender": "female",
+                  "symptoms": [
+                    "moderate BP",
+                    "dizziness",
+                    "palpitations"
+                  ],
+                  "medicine": "Amlodipine + Beta blocker (e.g., Atenolol)",
+                  "dosage": "1 tablet 500mg",
+                  "diet": "low-sodium diet",
+                  "precautions": "BP checks, low salt"
+                },
+                {
+                  "age_group": "oldage",
+                  "gender": "male",
+                  "symptoms": [
+                    "moderate BP",
+                    "dizziness",
+                    "palpitations"
+                  ],
+                  "medicine": "Amlodipine + Beta blocker (e.g., Atenolol)",
+                  "dosage": "1 tablet 250mg",
+                  "diet": "low-sodium diet",
+                  "precautions": "BP checks, low salt"
+                },
+                {
+                  "age_group": "oldage",
+                  "gender": "female",
+                  "symptoms": [
+                    "moderate BP",
+                    "dizziness",
+                    "palpitations"
+                  ],
+                  "medicine": "Amlodipine + Beta blocker (e.g., Atenolol)",
+                  "dosage": "1 tablet 250mg",
+                  "diet": "low-sodium diet",
+                  "precautions": "BP checks, low salt"
+                }
+              ]
+            },
+            {
+              "severity": "severe",
+              "groups": [
+                {
+                  "age_group": "children",
+                  "gender": "male",
+                  "symptoms": [
+                    "severely high BP",
+                    "vision issues",
+                    "chest pain"
+                  ],
+                  "medicine": "ACE inhibitors (e.g., Enalapril) + Diuretics",
+                  "dosage": "5 ml or 250mg",
+                  "diet": "low-sodium diet",
+                  "precautions": "BP checks, low salt"
+                },
+                {
+                  "age_group": "children",
+                  "gender": "female",
+                  "symptoms": [
+                    "severely high BP",
+                    "vision issues",
+                    "chest pain"
+                  ],
+                  "medicine": "ACE inhibitors (e.g., Enalapril) + Diuretics",
+                  "dosage": "5 ml or 250mg",
+                  "diet": "low-sodium diet",
+                  "precautions": "BP checks, low salt"
+                },
+                {
+                  "age_group": "adults",
+                  "gender": "male",
+                  "symptoms": [
+                    "severely high BP",
+                    "vision issues",
+                    "chest pain"
+                  ],
+                  "medicine": "ACE inhibitors (e.g., Enalapril) + Diuretics",
+                  "dosage": "1 tablet 500mg",
+                  "diet": "low-sodium diet",
+                  "precautions": "BP checks, low salt"
+                },
+                {
+                  "age_group": "adults",
+                  "gender": "female",
+                  "symptoms": [
+                    "severely high BP",
+                    "vision issues",
+                    "chest pain"
+                  ],
+                  "medicine": "ACE inhibitors (e.g., Enalapril) + Diuretics",
+                  "dosage": "1 tablet 500mg",
+                  "diet": "low-sodium diet",
+                  "precautions": "BP checks, low salt"
+                },
+                {
+                  "age_group": "oldage",
+                  "gender": "male",
+                  "symptoms": [
+                    "severely high BP",
+                    "vision issues",
+                    "chest pain"
+                  ],
+                  "medicine": "ACE inhibitors (e.g., Enalapril) + Diuretics",
+                  "dosage": "1 tablet 250mg",
+                  "diet": "low-sodium diet",
+                  "precautions": "BP checks, low salt"
+                },
+                {
+                  "age_group": "oldage",
+                  "gender": "female",
+                  "symptoms": [
+                    "severely high BP",
+                    "vision issues",
+                    "chest pain"
+                  ],
+                  "medicine": "ACE inhibitors (e.g., Enalapril) + Diuretics",
+                  "dosage": "1 tablet 250mg",
+                  "diet": "low-sodium diet",
+                  "precautions": "BP checks, low salt"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Secondary",
+          "levels": [
+            {
+              "severity": "mild",
+              "groups": [
+                {
+                  "age_group": "children",
+                  "gender": "male",
+                  "symptoms": [
+                    "slightly elevated BP",
+                    "headache"
+                  ],
+                  "medicine": "Address underlying cause + Amlodipine",
+                  "dosage": "5 ml or 250mg",
+                  "diet": "low-sodium diet",
+                  "precautions": "BP checks, low salt"
+                },
+                {
+                  "age_group": "children",
+                  "gender": "female",
+                  "symptoms": [
+                    "slightly elevated BP",
+                    "headache"
+                  ],
+                  "medicine": "Address underlying cause + Amlodipine",
+                  "dosage": "5 ml or 250mg",
+                  "diet": "low-sodium diet",
+                  "precautions": "BP checks, low salt"
+                },
+                {
+                  "age_group": "adults",
+                  "gender": "male",
+                  "symptoms": [
+                    "slightly elevated BP",
+                    "headache"
+                  ],
+                  "medicine": "Address underlying cause + Amlodipine",
+                  "dosage": "1 tablet 500mg",
+                  "diet": "low-sodium diet",
+                  "precautions": "BP checks, low salt"
+                },
+                {
+                  "age_group": "adults",
+                  "gender": "female",
+                  "symptoms": [
+                    "slightly elevated BP",
+                    "headache"
+                  ],
+                  "medicine": "Address underlying cause + Amlodipine",
+                  "dosage": "1 tablet 500mg",
+                  "diet": "low-sodium diet",
+                  "precautions": "BP checks, low salt"
+                },
+                {
+                  "age_group": "oldage",
+                  "gender": "male",
+                  "symptoms": [
+                    "slightly elevated BP",
+                    "headache"
+                  ],
+                  "medicine": "Address underlying cause + Amlodipine",
+                  "dosage": "1 tablet 250mg",
+                  "diet": "low-sodium diet",
+                  "precautions": "BP checks, low salt"
+                },
+                {
+                  "age_group": "oldage",
+                  "gender": "female",
+                  "symptoms": [
+                    "slightly elevated BP",
+                    "headache"
+                  ],
+                  "medicine": "Address underlying cause + Amlodipine",
+                  "dosage": "1 tablet 250mg",
+                  "diet": "low-sodium diet",
+                  "precautions": "BP checks, low salt"
+                }
+              ]
+            },
+            {
+              "severity": "moderate",
+              "groups": [
+                {
+                  "age_group": "children",
+                  "gender": "male",
+                  "symptoms": [
+                    "moderate BP",
+                    "dizziness",
+                    "palpitations"
+                  ],
+                  "medicine": "Amlodipine + Losartan",
+                  "dosage": "5 ml or 250mg",
+                  "diet": "low-sodium diet",
+                  "precautions": "BP checks, low salt"
+                },
+                {
+                  "age_group": "children",
+                  "gender": "female",
+                  "symptoms": [
+                    "moderate BP",
+                    "dizziness",
+                    "palpitations"
+                  ],
+                  "medicine": "Amlodipine + Losartan",
+                  "dosage": "5 ml or 250mg",
+                  "diet": "low-sodium diet",
+                  "precautions": "BP checks, low salt"
+                },
+                {
+                  "age_group": "adults",
+                  "gender": "male",
+                  "symptoms": [
+                    "moderate BP",
+                    "dizziness",
+                    "palpitations"
+                  ],
+                  "medicine": "Amlodipine + Losartan",
+                  "dosage": "1 tablet 500mg",
+                  "diet": "low-sodium diet",
+                  "precautions": "BP checks, low salt"
+                },
+                {
+                  "age_group": "adults",
+                  "gender": "female",
+                  "symptoms": [
+                    "moderate BP",
+                    "dizziness",
+                    "palpitations"
+                  ],
+                  "medicine": "Amlodipine + Losartan",
+                  "dosage": "1 tablet 500mg",
+                  "diet": "low-sodium diet",
+                  "precautions": "BP checks, low salt"
+                },
+                {
+                  "age_group": "oldage",
+                  "gender": "male",
+                  "symptoms": [
+                    "moderate BP",
+                    "dizziness",
+                    "palpitations"
+                  ],
+                  "medicine": "Amlodipine + Losartan",
+                  "dosage": "1 tablet 250mg",
+                  "diet": "low-sodium diet",
+                  "precautions": "BP checks, low salt"
+                },
+                {
+                  "age_group": "oldage",
+                  "gender": "female",
+                  "symptoms": [
+                    "moderate BP",
+                    "dizziness",
+                    "palpitations"
+                  ],
+                  "medicine": "Amlodipine + Losartan",
+                  "dosage": "1 tablet 250mg",
+                  "diet": "low-sodium diet",
+                  "precautions": "BP checks, low salt"
+                }
+              ]
+            },
+            {
+              "severity": "severe",
+              "groups": [
+                {
+                  "age_group": "children",
+                  "gender": "male",
+                  "symptoms": [
+                    "severely high BP",
+                    "vision issues",
+                    "chest pain"
+                  ],
+                  "medicine": "Specialist treatment + multiple antihypertensives",
+                  "dosage": "5 ml or 250mg",
+                  "diet": "low-sodium diet",
+                  "precautions": "BP checks, low salt"
+                },
+                {
+                  "age_group": "children",
+                  "gender": "female",
+                  "symptoms": [
+                    "severely high BP",
+                    "vision issues",
+                    "chest pain"
+                  ],
+                  "medicine": "Specialist treatment + multiple antihypertensives",
+                  "dosage": "5 ml or 250mg",
+                  "diet": "low-sodium diet",
+                  "precautions": "BP checks, low salt"
+                },
+                {
+                  "age_group": "adults",
+                  "gender": "male",
+                  "symptoms": [
+                    "severely high BP",
+                    "vision issues",
+                    "chest pain"
+                  ],
+                  "medicine": "Specialist treatment + multiple antihypertensives",
+                  "dosage": "1 tablet 500mg",
+                  "diet": "low-sodium diet",
+                  "precautions": "BP checks, low salt"
+                },
+                {
+                  "age_group": "adults",
+                  "gender": "female",
+                  "symptoms": [
+                    "severely high BP",
+                    "vision issues",
+                    "chest pain"
+                  ],
+                  "medicine": "Specialist treatment + multiple antihypertensives",
+                  "dosage": "1 tablet 500mg",
+                  "diet": "low-sodium diet",
+                  "precautions": "BP checks, low salt"
+                },
+                {
+                  "age_group": "oldage",
+                  "gender": "male",
+                  "symptoms": [
+                    "severely high BP",
+                    "vision issues",
+                    "chest pain"
+                  ],
+                  "medicine": "Specialist treatment + multiple antihypertensives",
+                  "dosage": "1 tablet 250mg",
+                  "diet": "low-sodium diet",
+                  "precautions": "BP checks, low salt"
+                },
+                {
+                  "age_group": "oldage",
+                  "gender": "female",
+                  "symptoms": [
+                    "severely high BP",
+                    "vision issues",
+                    "chest pain"
+                  ],
+                  "medicine": "Specialist treatment + multiple antihypertensives",
+                  "dosage": "1 tablet 250mg",
+                  "diet": "low-sodium diet",
+                  "precautions": "BP checks, low salt"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "disease": "Diabetes",
+      "types": [
+        {
+          "type": "Type 1",
+          "levels": [
+            {
+              "severity": "mild",
+              "groups": [
+                {
+                  "age_group": "children",
+                  "gender": "male",
+                  "symptoms": [
+                    "frequent urination",
+                    "mild thirst"
+                  ],
+                  "medicine": "Insulin therapy - low dose",
+                  "dosage": "5 ml or 250mg",
+                  "diet": "low sugar, high fiber",
+                  "precautions": "check sugar regularly, exercise"
+                },
+                {
+                  "age_group": "children",
+                  "gender": "female",
+                  "symptoms": [
+                    "frequent urination",
+                    "mild thirst"
+                  ],
+                  "medicine": "Insulin therapy - low dose",
+                  "dosage": "5 ml or 250mg",
+                  "diet": "low sugar, high fiber",
+                  "precautions": "check sugar regularly, exercise"
+                },
+                {
+                  "age_group": "adults",
+                  "gender": "male",
+                  "symptoms": [
+                    "frequent urination",
+                    "mild thirst"
+                  ],
+                  "medicine": "Insulin therapy - low dose",
+                  "dosage": "1 tablet 500mg",
+                  "diet": "low sugar, high fiber",
+                  "precautions": "check sugar regularly, exercise"
+                },
+                {
+                  "age_group": "adults",
+                  "gender": "female",
+                  "symptoms": [
+                    "frequent urination",
+                    "mild thirst"
+                  ],
+                  "medicine": "Insulin therapy - low dose",
+                  "dosage": "1 tablet 500mg",
+                  "diet": "low sugar, high fiber",
+                  "precautions": "check sugar regularly, exercise"
+                },
+                {
+                  "age_group": "oldage",
+                  "gender": "male",
+                  "symptoms": [
+                    "frequent urination",
+                    "mild thirst"
+                  ],
+                  "medicine": "Insulin therapy - low dose",
+                  "dosage": "1 tablet 250mg",
+                  "diet": "low sugar, high fiber",
+                  "precautions": "check sugar regularly, exercise"
+                },
+                {
+                  "age_group": "oldage",
+                  "gender": "female",
+                  "symptoms": [
+                    "frequent urination",
+                    "mild thirst"
+                  ],
+                  "medicine": "Insulin therapy - low dose",
+                  "dosage": "1 tablet 250mg",
+                  "diet": "low sugar, high fiber",
+                  "precautions": "check sugar regularly, exercise"
+                }
+              ]
+            },
+            {
+              "severity": "moderate",
+              "groups": [
+                {
+                  "age_group": "children",
+                  "gender": "male",
+                  "symptoms": [
+                    "fatigue",
+                    "blurred vision",
+                    "slow healing"
+                  ],
+                  "medicine": "Insulin regimen (Basal-Bolus)",
+                  "dosage": "5 ml or 250mg",
+                  "diet": "low sugar, high fiber",
+                  "precautions": "check sugar regularly, exercise"
+                },
+                {
+                  "age_group": "children",
+                  "gender": "female",
+                  "symptoms": [
+                    "fatigue",
+                    "blurred vision",
+                    "slow healing"
+                  ],
+                  "medicine": "Insulin regimen (Basal-Bolus)",
+                  "dosage": "5 ml or 250mg",
+                  "diet": "low sugar, high fiber",
+                  "precautions": "check sugar regularly, exercise"
+                },
+                {
+                  "age_group": "adults",
+                  "gender": "male",
+                  "symptoms": [
+                    "fatigue",
+                    "blurred vision",
+                    "slow healing"
+                  ],
+                  "medicine": "Insulin regimen (Basal-Bolus)",
+                  "dosage": "1 tablet 500mg",
+                  "diet": "low sugar, high fiber",
+                  "precautions": "check sugar regularly, exercise"
+                },
+                {
+                  "age_group": "adults",
+                  "gender": "female",
+                  "symptoms": [
+                    "fatigue",
+                    "blurred vision",
+                    "slow healing"
+                  ],
+                  "medicine": "Insulin regimen (Basal-Bolus)",
+                  "dosage": "1 tablet 500mg",
+                  "diet": "low sugar, high fiber",
+                  "precautions": "check sugar regularly, exercise"
+                },
+                {
+                  "age_group": "oldage",
+                  "gender": "male",
+                  "symptoms": [
+                    "fatigue",
+                    "blurred vision",
+                    "slow healing"
+                  ],
+                  "medicine": "Insulin regimen (Basal-Bolus)",
+                  "dosage": "1 tablet 250mg",
+                  "diet": "low sugar, high fiber",
+                  "precautions": "check sugar regularly, exercise"
+                },
+                {
+                  "age_group": "oldage",
+                  "gender": "female",
+                  "symptoms": [
+                    "fatigue",
+                    "blurred vision",
+                    "slow healing"
+                  ],
+                  "medicine": "Insulin regimen (Basal-Bolus)",
+                  "dosage": "1 tablet 250mg",
+                  "diet": "low sugar, high fiber",
+                  "precautions": "check sugar regularly, exercise"
+                }
+              ]
+            },
+            {
+              "severity": "severe",
+              "groups": [
+                {
+                  "age_group": "children",
+                  "gender": "male",
+                  "symptoms": [
+                    "extreme fatigue",
+                    "weight loss",
+                    "numbness"
+                  ],
+                  "medicine": "Insulin + Hospital care for ketoacidosis",
+                  "dosage": "5 ml or 250mg",
+                  "diet": "low sugar, high fiber",
+                  "precautions": "check sugar regularly, exercise"
+                },
+                {
+                  "age_group": "children",
+                  "gender": "female",
+                  "symptoms": [
+                    "extreme fatigue",
+                    "weight loss",
+                    "numbness"
+                  ],
+                  "medicine": "Insulin + Hospital care for ketoacidosis",
+                  "dosage": "5 ml or 250mg",
+                  "diet": "low sugar, high fiber",
+                  "precautions": "check sugar regularly, exercise"
+                },
+                {
+                  "age_group": "adults",
+                  "gender": "male",
+                  "symptoms": [
+                    "extreme fatigue",
+                    "weight loss",
+                    "numbness"
+                  ],
+                  "medicine": "Insulin + Hospital care for ketoacidosis",
+                  "dosage": "1 tablet 500mg",
+                  "diet": "low sugar, high fiber",
+                  "precautions": "check sugar regularly, exercise"
+                },
+                {
+                  "age_group": "adults",
+                  "gender": "female",
+                  "symptoms": [
+                    "extreme fatigue",
+                    "weight loss",
+                    "numbness"
+                  ],
+                  "medicine": "Insulin + Hospital care for ketoacidosis",
+                  "dosage": "1 tablet 500mg",
+                  "diet": "low sugar, high fiber",
+                  "precautions": "check sugar regularly, exercise"
+                },
+                {
+                  "age_group": "oldage",
+                  "gender": "male",
+                  "symptoms": [
+                    "extreme fatigue",
+                    "weight loss",
+                    "numbness"
+                  ],
+                  "medicine": "Insulin + Hospital care for ketoacidosis",
+                  "dosage": "1 tablet 250mg",
+                  "diet": "low sugar, high fiber",
+                  "precautions": "check sugar regularly, exercise"
+                },
+                {
+                  "age_group": "oldage",
+                  "gender": "female",
+                  "symptoms": [
+                    "extreme fatigue",
+                    "weight loss",
+                    "numbness"
+                  ],
+                  "medicine": "Insulin + Hospital care for ketoacidosis",
+                  "dosage": "1 tablet 250mg",
+                  "diet": "low sugar, high fiber",
+                  "precautions": "check sugar regularly, exercise"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Type 2",
+          "levels": [
+            {
+              "severity": "mild",
+              "groups": [
+                {
+                  "age_group": "children",
+                  "gender": "male",
+                  "symptoms": [
+                    "frequent urination",
+                    "mild thirst"
+                  ],
+                  "medicine": "Metformin Syrup 250mg",
+                  "dosage": "5 ml or 250mg",
+                  "diet": "low sugar, high fiber",
+                  "precautions": "check sugar regularly, exercise"
+                },
+                {
+                  "age_group": "children",
+                  "gender": "female",
+                  "symptoms": [
+                    "frequent urination",
+                    "mild thirst"
+                  ],
+                  "medicine": "Metformin Syrup 250mg",
+                  "dosage": "5 ml or 250mg",
+                  "diet": "low sugar, high fiber",
+                  "precautions": "check sugar regularly, exercise"
+                },
+                {
+                  "age_group": "adults",
+                  "gender": "male",
+                  "symptoms": [
+                    "frequent urination",
+                    "mild thirst"
+                  ],
+                  "medicine": "Metformin 500mg",
+                  "dosage": "1 tablet 500mg",
+                  "diet": "low sugar, high fiber",
+                  "precautions": "check sugar regularly, exercise"
+                },
+                {
+                  "age_group": "adults",
+                  "gender": "female",
+                  "symptoms": [
+                    "frequent urination",
+                    "mild thirst"
+                  ],
+                  "medicine": "Metformin 500mg",
+                  "dosage": "1 tablet 500mg",
+                  "diet": "low sugar, high fiber",
+                  "precautions": "check sugar regularly, exercise"
+                },
+                {
+                  "age_group": "oldage",
+                  "gender": "male",
+                  "symptoms": [
+                    "frequent urination",
+                    "mild thirst"
+                  ],
+                  "medicine": "Metformin 500mg",
+                  "dosage": "1 tablet 250mg",
+                  "diet": "low sugar, high fiber",
+                  "precautions": "check sugar regularly, exercise"
+                },
+                {
+                  "age_group": "oldage",
+                  "gender": "female",
+                  "symptoms": [
+                    "frequent urination",
+                    "mild thirst"
+                  ],
+                  "medicine": "Metformin 500mg",
+                  "dosage": "1 tablet 250mg",
+                  "diet": "low sugar, high fiber",
+                  "precautions": "check sugar regularly, exercise"
+                }
+              ]
+            },
+            {
+              "severity": "moderate",
+              "groups": [
+                {
+                  "age_group": "children",
+                  "gender": "male",
+                  "symptoms": [
+                    "fatigue",
+                    "blurred vision",
+                    "slow healing"
+                  ],
+                  "medicine": "Metformin Syrup + DPP-4 inhibitor (e.g., Sitagliptin)",
+                  "dosage": "5 ml or 250mg",
+                  "diet": "low sugar, high fiber",
+                  "precautions": "check sugar regularly, exercise"
+                },
+                {
+                  "age_group": "children",
+                  "gender": "female",
+                  "symptoms": [
+                    "fatigue",
+                    "blurred vision",
+                    "slow healing"
+                  ],
+                  "medicine": "Metformin Syrup + DPP-4 inhibitor (e.g., Sitagliptin)",
+                  "dosage": "5 ml or 250mg",
+                  "diet": "low sugar, high fiber",
+                  "precautions": "check sugar regularly, exercise"
+                },
+                {
+                  "age_group": "adults",
+                  "gender": "male",
+                  "symptoms": [
+                    "fatigue",
+                    "blurred vision",
+                    "slow healing"
+                  ],
+                  "medicine": "Metformin + DPP-4 inhibitor (e.g., Sitagliptin)",
+                  "dosage": "1 tablet 500mg",
+                  "diet": "low sugar, high fiber",
+                  "precautions": "check sugar regularly, exercise"
+                },
+                {
+                  "age_group": "adults",
+                  "gender": "female",
+                  "symptoms": [
+                    "fatigue",
+                    "blurred vision",
+                    "slow healing"
+                  ],
+                  "medicine": "Metformin + DPP-4 inhibitor (e.g., Sitagliptin)",
+                  "dosage": "1 tablet 500mg",
+                  "diet": "low sugar, high fiber",
+                  "precautions": "check sugar regularly, exercise"
+                },
+                {
+                  "age_group": "oldage",
+                  "gender": "male",
+                  "symptoms": [
+                    "fatigue",
+                    "blurred vision",
+                    "slow healing"
+                  ],
+                  "medicine": "Metformin + DPP-4 inhibitor (e.g., Sitagliptin)",
+                  "dosage": "1 tablet 250mg",
+                  "diet": "low sugar, high fiber",
+                  "precautions": "check sugar regularly, exercise"
+                },
+                {
+                  "age_group": "oldage",
+                  "gender": "female",
+                  "symptoms": [
+                    "fatigue",
+                    "blurred vision",
+                    "slow healing"
+                  ],
+                  "medicine": "Metformin + DPP-4 inhibitor (e.g., Sitagliptin)",
+                  "dosage": "1 tablet 250mg",
+                  "diet": "low sugar, high fiber",
+                  "precautions": "check sugar regularly, exercise"
+                }
+              ]
+            },
+            {
+              "severity": "severe",
+              "groups": [
+                {
+                  "age_group": "children",
+                  "gender": "male",
+                  "symptoms": [
+                    "extreme fatigue",
+                    "weight loss",
+                    "numbness"
+                  ],
+                  "medicine": "Insulin + Oral hypoglycemics",
+                  "dosage": "5 ml or 250mg",
+                  "diet": "low sugar, high fiber",
+                  "precautions": "check sugar regularly, exercise"
+                },
+                {
+                  "age_group": "children",
+                  "gender": "female",
+                  "symptoms": [
+                    "extreme fatigue",
+                    "weight loss",
+                    "numbness"
+                  ],
+                  "medicine": "Insulin + Oral hypoglycemics",
+                  "dosage": "5 ml or 250mg",
+                  "diet": "low sugar, high fiber",
+                  "precautions": "check sugar regularly, exercise"
+                },
+                {
+                  "age_group": "adults",
+                  "gender": "male",
+                  "symptoms": [
+                    "extreme fatigue",
+                    "weight loss",
+                    "numbness"
+                  ],
+                  "medicine": "Insulin + Oral hypoglycemics",
+                  "dosage": "1 tablet 500mg",
+                  "diet": "low sugar, high fiber",
+                  "precautions": "check sugar regularly, exercise"
+                },
+                {
+                  "age_group": "adults",
+                  "gender": "female",
+                  "symptoms": [
+                    "extreme fatigue",
+                    "weight loss",
+                    "numbness"
+                  ],
+                  "medicine": "Insulin + Oral hypoglycemics",
+                  "dosage": "1 tablet 500mg",
+                  "diet": "low sugar, high fiber",
+                  "precautions": "check sugar regularly, exercise"
+                },
+                {
+                  "age_group": "oldage",
+                  "gender": "male",
+                  "symptoms": [
+                    "extreme fatigue",
+                    "weight loss",
+                    "numbness"
+                  ],
+                  "medicine": "Insulin + Oral hypoglycemics",
+                  "dosage": "1 tablet 250mg",
+                  "diet": "low sugar, high fiber",
+                  "precautions": "check sugar regularly, exercise"
+                },
+                {
+                  "age_group": "oldage",
+                  "gender": "female",
+                  "symptoms": [
+                    "extreme fatigue",
+                    "weight loss",
+                    "numbness"
+                  ],
+                  "medicine": "Insulin + Oral hypoglycemics",
+                  "dosage": "1 tablet 250mg",
+                  "diet": "low sugar, high fiber",
+                  "precautions": "check sugar regularly, exercise"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "disease": "Heart Stroke",
+      "types": [
+        {
+          "type": "Ischemic",
+          "levels": [
+            {
+              "severity": "mild",
+              "groups": [
+                {
+                  "age_group": "children",
+                  "gender": "male",
+                  "symptoms": [
+                    "mild confusion",
+                    "light dizziness"
+                  ],
+                  "medicine": "Aspirin + statins",
+                  "dosage": "5 ml or 250mg",
+                  "diet": "heart-friendly soft food",
+                  "precautions": "seek emergency help, rest"
+                },
+                {
+                  "age_group": "children",
+                  "gender": "female",
+                  "symptoms": [
+                    "mild confusion",
+                    "light dizziness"
+                  ],
+                  "medicine": "Aspirin + statins",
+                  "dosage": "5 ml or 250mg",
+                  "diet": "heart-friendly soft food",
+                  "precautions": "seek emergency help, rest"
+                },
+                {
+                  "age_group": "adults",
+                  "gender": "male",
+                  "symptoms": [
+                    "mild confusion",
+                    "light dizziness"
+                  ],
+                  "medicine": "Aspirin + statins",
+                  "dosage": "1 tablet 500mg",
+                  "diet": "heart-friendly soft food",
+                  "precautions": "seek emergency help, rest"
+                },
+                {
+                  "age_group": "adults",
+                  "gender": "female",
+                  "symptoms": [
+                    "mild confusion",
+                    "light dizziness"
+                  ],
+                  "medicine": "Aspirin + statins",
+                  "dosage": "1 tablet 500mg",
+                  "diet": "heart-friendly soft food",
+                  "precautions": "seek emergency help, rest"
+                },
+                {
+                  "age_group": "oldage",
+                  "gender": "male",
+                  "symptoms": [
+                    "mild confusion",
+                    "light dizziness"
+                  ],
+                  "medicine": "Aspirin + statins",
+                  "dosage": "1 tablet 250mg",
+                  "diet": "heart-friendly soft food",
+                  "precautions": "seek emergency help, rest"
+                },
+                {
+                  "age_group": "oldage",
+                  "gender": "female",
+                  "symptoms": [
+                    "mild confusion",
+                    "light dizziness"
+                  ],
+                  "medicine": "Aspirin + statins",
+                  "dosage": "1 tablet 250mg",
+                  "diet": "heart-friendly soft food",
+                  "precautions": "seek emergency help, rest"
+                }
+              ]
+            },
+            {
+              "severity": "moderate",
+              "groups": [
+                {
+                  "age_group": "children",
+                  "gender": "male",
+                  "symptoms": [
+                    "weakness on one side",
+                    "speech difficulty"
+                  ],
+                  "medicine": "Aspirin + Clopidogrel + monitoring",
+                  "dosage": "5 ml or 250mg",
+                  "diet": "heart-friendly soft food",
+                  "precautions": "seek emergency help, rest"
+                },
+                {
+                  "age_group": "children",
+                  "gender": "female",
+                  "symptoms": [
+                    "weakness on one side",
+                    "speech difficulty"
+                  ],
+                  "medicine": "Aspirin + Clopidogrel + monitoring",
+                  "dosage": "5 ml or 250mg",
+                  "diet": "heart-friendly soft food",
+                  "precautions": "seek emergency help, rest"
+                },
+                {
+                  "age_group": "adults",
+                  "gender": "male",
+                  "symptoms": [
+                    "weakness on one side",
+                    "speech difficulty"
+                  ],
+                  "medicine": "Aspirin + Clopidogrel + monitoring",
+                  "dosage": "1 tablet 500mg",
+                  "diet": "heart-friendly soft food",
+                  "precautions": "seek emergency help, rest"
+                },
+                {
+                  "age_group": "adults",
+                  "gender": "female",
+                  "symptoms": [
+                    "weakness on one side",
+                    "speech difficulty"
+                  ],
+                  "medicine": "Aspirin + Clopidogrel + monitoring",
+                  "dosage": "1 tablet 500mg",
+                  "diet": "heart-friendly soft food",
+                  "precautions": "seek emergency help, rest"
+                },
+                {
+                  "age_group": "oldage",
+                  "gender": "male",
+                  "symptoms": [
+                    "weakness on one side",
+                    "speech difficulty"
+                  ],
+                  "medicine": "Aspirin + Clopidogrel + monitoring",
+                  "dosage": "1 tablet 250mg",
+                  "diet": "heart-friendly soft food",
+                  "precautions": "seek emergency help, rest"
+                },
+                {
+                  "age_group": "oldage",
+                  "gender": "female",
+                  "symptoms": [
+                    "weakness on one side",
+                    "speech difficulty"
+                  ],
+                  "medicine": "Aspirin + Clopidogrel + monitoring",
+                  "dosage": "1 tablet 250mg",
+                  "diet": "heart-friendly soft food",
+                  "precautions": "seek emergency help, rest"
+                }
+              ]
+            },
+            {
+              "severity": "severe",
+              "groups": [
+                {
+                  "age_group": "children",
+                  "gender": "male",
+                  "symptoms": [
+                    "loss of consciousness",
+                    "severe paralysis"
+                  ],
+                  "medicine": "Thrombolytics (e.g., tPA) + ICU care",
+                  "dosage": "5 ml or 250mg",
+                  "diet": "heart-friendly soft food",
+                  "precautions": "seek emergency help, rest"
+                },
+                {
+                  "age_group": "children",
+                  "gender": "female",
+                  "symptoms": [
+                    "loss of consciousness",
+                    "severe paralysis"
+                  ],
+                  "medicine": "Thrombolytics (e.g., tPA) + ICU care",
+                  "dosage": "5 ml or 250mg",
+                  "diet": "heart-friendly soft food",
+                  "precautions": "seek emergency help, rest"
+                },
+                {
+                  "age_group": "adults",
+                  "gender": "male",
+                  "symptoms": [
+                    "loss of consciousness",
+                    "severe paralysis"
+                  ],
+                  "medicine": "Thrombolytics (e.g., tPA) + ICU care",
+                  "dosage": "1 tablet 500mg",
+                  "diet": "heart-friendly soft food",
+                  "precautions": "seek emergency help, rest"
+                },
+                {
+                  "age_group": "adults",
+                  "gender": "female",
+                  "symptoms": [
+                    "loss of consciousness",
+                    "severe paralysis"
+                  ],
+                  "medicine": "Thrombolytics (e.g., tPA) + ICU care",
+                  "dosage": "1 tablet 500mg",
+                  "diet": "heart-friendly soft food",
+                  "precautions": "seek emergency help, rest"
+                },
+                {
+                  "age_group": "oldage",
+                  "gender": "male",
+                  "symptoms": [
+                    "loss of consciousness",
+                    "severe paralysis"
+                  ],
+                  "medicine": "Thrombolytics (e.g., tPA) + ICU care",
+                  "dosage": "1 tablet 250mg",
+                  "diet": "heart-friendly soft food",
+                  "precautions": "seek emergency help, rest"
+                },
+                {
+                  "age_group": "oldage",
+                  "gender": "female",
+                  "symptoms": [
+                    "loss of consciousness",
+                    "severe paralysis"
+                  ],
+                  "medicine": "Thrombolytics (e.g., tPA) + ICU care",
+                  "dosage": "1 tablet 250mg",
+                  "diet": "heart-friendly soft food",
+                  "precautions": "seek emergency help, rest"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Hemorrhagic",
+          "levels": [
+            {
+              "severity": "mild",
+              "groups": [
+                {
+                  "age_group": "children",
+                  "gender": "male",
+                  "symptoms": [
+                    "mild confusion",
+                    "light dizziness"
+                  ],
+                  "medicine": "Neuro monitoring + BP control",
+                  "dosage": "5 ml or 250mg",
+                  "diet": "heart-friendly soft food",
+                  "precautions": "seek emergency help, rest"
+                },
+                {
+                  "age_group": "children",
+                  "gender": "female",
+                  "symptoms": [
+                    "mild confusion",
+                    "light dizziness"
+                  ],
+                  "medicine": "Neuro monitoring + BP control",
+                  "dosage": "5 ml or 250mg",
+                  "diet": "heart-friendly soft food",
+                  "precautions": "seek emergency help, rest"
+                },
+                {
+                  "age_group": "adults",
+                  "gender": "male",
+                  "symptoms": [
+                    "mild confusion",
+                    "light dizziness"
+                  ],
+                  "medicine": "Neuro monitoring + BP control",
+                  "dosage": "1 tablet 500mg",
+                  "diet": "heart-friendly soft food",
+                  "precautions": "seek emergency help, rest"
+                },
+                {
+                  "age_group": "adults",
+                  "gender": "female",
+                  "symptoms": [
+                    "mild confusion",
+                    "light dizziness"
+                  ],
+                  "medicine": "Neuro monitoring + BP control",
+                  "dosage": "1 tablet 500mg",
+                  "diet": "heart-friendly soft food",
+                  "precautions": "seek emergency help, rest"
+                },
+                {
+                  "age_group": "oldage",
+                  "gender": "male",
+                  "symptoms": [
+                    "mild confusion",
+                    "light dizziness"
+                  ],
+                  "medicine": "Neuro monitoring + BP control",
+                  "dosage": "1 tablet 250mg",
+                  "diet": "heart-friendly soft food",
+                  "precautions": "seek emergency help, rest"
+                },
+                {
+                  "age_group": "oldage",
+                  "gender": "female",
+                  "symptoms": [
+                    "mild confusion",
+                    "light dizziness"
+                  ],
+                  "medicine": "Neuro monitoring + BP control",
+                  "dosage": "1 tablet 250mg",
+                  "diet": "heart-friendly soft food",
+                  "precautions": "seek emergency help, rest"
+                }
+              ]
+            },
+            {
+              "severity": "moderate",
+              "groups": [
+                {
+                  "age_group": "children",
+                  "gender": "male",
+                  "symptoms": [
+                    "weakness on one side",
+                    "speech difficulty"
+                  ],
+                  "medicine": "Surgery evaluation + BP meds",
+                  "dosage": "5 ml or 250mg",
+                  "diet": "heart-friendly soft food",
+                  "precautions": "seek emergency help, rest"
+                },
+                {
+                  "age_group": "children",
+                  "gender": "female",
+                  "symptoms": [
+                    "weakness on one side",
+                    "speech difficulty"
+                  ],
+                  "medicine": "Surgery evaluation + BP meds",
+                  "dosage": "5 ml or 250mg",
+                  "diet": "heart-friendly soft food",
+                  "precautions": "seek emergency help, rest"
+                },
+                {
+                  "age_group": "adults",
+                  "gender": "male",
+                  "symptoms": [
+                    "weakness on one side",
+                    "speech difficulty"
+                  ],
+                  "medicine": "Surgery evaluation + BP meds",
+                  "dosage": "1 tablet 500mg",
+                  "diet": "heart-friendly soft food",
+                  "precautions": "seek emergency help, rest"
+                },
+                {
+                  "age_group": "adults",
+                  "gender": "female",
+                  "symptoms": [
+                    "weakness on one side",
+                    "speech difficulty"
+                  ],
+                  "medicine": "Surgery evaluation + BP meds",
+                  "dosage": "1 tablet 500mg",
+                  "diet": "heart-friendly soft food",
+                  "precautions": "seek emergency help, rest"
+                },
+                {
+                  "age_group": "oldage",
+                  "gender": "male",
+                  "symptoms": [
+                    "weakness on one side",
+                    "speech difficulty"
+                  ],
+                  "medicine": "Surgery evaluation + BP meds",
+                  "dosage": "1 tablet 250mg",
+                  "diet": "heart-friendly soft food",
+                  "precautions": "seek emergency help, rest"
+                },
+                {
+                  "age_group": "oldage",
+                  "gender": "female",
+                  "symptoms": [
+                    "weakness on one side",
+                    "speech difficulty"
+                  ],
+                  "medicine": "Surgery evaluation + BP meds",
+                  "dosage": "1 tablet 250mg",
+                  "diet": "heart-friendly soft food",
+                  "precautions": "seek emergency help, rest"
+                }
+              ]
+            },
+            {
+              "severity": "severe",
+              "groups": [
+                {
+                  "age_group": "children",
+                  "gender": "male",
+                  "symptoms": [
+                    "loss of consciousness",
+                    "severe paralysis"
+                  ],
+                  "medicine": "Neurosurgical intervention + ICU",
+                  "dosage": "5 ml or 250mg",
+                  "diet": "heart-friendly soft food",
+                  "precautions": "seek emergency help, rest"
+                },
+                {
+                  "age_group": "children",
+                  "gender": "female",
+                  "symptoms": [
+                    "loss of consciousness",
+                    "severe paralysis"
+                  ],
+                  "medicine": "Neurosurgical intervention + ICU",
+                  "dosage": "5 ml or 250mg",
+                  "diet": "heart-friendly soft food",
+                  "precautions": "seek emergency help, rest"
+                },
+                {
+                  "age_group": "adults",
+                  "gender": "male",
+                  "symptoms": [
+                    "loss of consciousness",
+                    "severe paralysis"
+                  ],
+                  "medicine": "Neurosurgical intervention + ICU",
+                  "dosage": "1 tablet 500mg",
+                  "diet": "heart-friendly soft food",
+                  "precautions": "seek emergency help, rest"
+                },
+                {
+                  "age_group": "adults",
+                  "gender": "female",
+                  "symptoms": [
+                    "loss of consciousness",
+                    "severe paralysis"
+                  ],
+                  "medicine": "Neurosurgical intervention + ICU",
+                  "dosage": "1 tablet 500mg",
+                  "diet": "heart-friendly soft food",
+                  "precautions": "seek emergency help, rest"
+                },
+                {
+                  "age_group": "oldage",
+                  "gender": "male",
+                  "symptoms": [
+                    "loss of consciousness",
+                    "severe paralysis"
+                  ],
+                  "medicine": "Neurosurgical intervention + ICU",
+                  "dosage": "1 tablet 250mg",
+                  "diet": "heart-friendly soft food",
+                  "precautions": "seek emergency help, rest"
+                },
+                {
+                  "age_group": "oldage",
+                  "gender": "female",
+                  "symptoms": [
+                    "loss of consciousness",
+                    "severe paralysis"
+                  ],
+                  "medicine": "Neurosurgical intervention + ICU",
+                  "dosage": "1 tablet 250mg",
+                  "diet": "heart-friendly soft food",
+                  "precautions": "seek emergency help, rest"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "disease": "Food Poisoning",
+      "types": [
+        {
+          "type": "Bacterial",
+          "levels": [
+            {
+              "severity": "mild",
+              "groups": [
+                {
+                  "age_group": "children",
+                  "gender": "male",
+                  "symptoms": [
+                    "stomach discomfort",
+                    "nausea"
+                  ],
+                  "medicine": "ORS + rest",
+                  "dosage": "5 ml or 250mg",
+                  "diet": "bland diet, fluids",
+                  "precautions": "hygiene, hydration"
+                },
+                {
+                  "age_group": "children",
+                  "gender": "female",
+                  "symptoms": [
+                    "stomach discomfort",
+                    "nausea"
+                  ],
+                  "medicine": "ORS + rest",
+                  "dosage": "5 ml or 250mg",
+                  "diet": "bland diet, fluids",
+                  "precautions": "hygiene, hydration"
+                },
+                {
+                  "age_group": "adults",
+                  "gender": "male",
+                  "symptoms": [
+                    "stomach discomfort",
+                    "nausea"
+                  ],
+                  "medicine": "ORS + rest",
+                  "dosage": "1 tablet 500mg",
+                  "diet": "bland diet, fluids",
+                  "precautions": "hygiene, hydration"
+                },
+                {
+                  "age_group": "adults",
+                  "gender": "female",
+                  "symptoms": [
+                    "stomach discomfort",
+                    "nausea"
+                  ],
+                  "medicine": "ORS + rest",
+                  "dosage": "1 tablet 500mg",
+                  "diet": "bland diet, fluids",
+                  "precautions": "hygiene, hydration"
+                },
+                {
+                  "age_group": "oldage",
+                  "gender": "male",
+                  "symptoms": [
+                    "stomach discomfort",
+                    "nausea"
+                  ],
+                  "medicine": "ORS + rest",
+                  "dosage": "1 tablet 250mg",
+                  "diet": "bland diet, fluids",
+                  "precautions": "hygiene, hydration"
+                },
+                {
+                  "age_group": "oldage",
+                  "gender": "female",
+                  "symptoms": [
+                    "stomach discomfort",
+                    "nausea"
+                  ],
+                  "medicine": "ORS + rest",
+                  "dosage": "1 tablet 250mg",
+                  "diet": "bland diet, fluids",
+                  "precautions": "hygiene, hydration"
+                }
+              ]
+            },
+            {
+              "severity": "moderate",
+              "groups": [
+                {
+                  "age_group": "children",
+                  "gender": "male",
+                  "symptoms": [
+                    "vomiting",
+                    "diarrhea",
+                    "abdominal cramps"
+                  ],
+                  "medicine": "ORS + Ciprofloxacin",
+                  "dosage": "5 ml or 250mg",
+                  "diet": "bland diet, fluids",
+                  "precautions": "hygiene, hydration"
+                },
+                {
+                  "age_group": "children",
+                  "gender": "female",
+                  "symptoms": [
+                    "vomiting",
+                    "diarrhea",
+                    "abdominal cramps"
+                  ],
+                  "medicine": "ORS + Ciprofloxacin",
+                  "dosage": "5 ml or 250mg",
+                  "diet": "bland diet, fluids",
+                  "precautions": "hygiene, hydration"
+                },
+                {
+                  "age_group": "adults",
+                  "gender": "male",
+                  "symptoms": [
+                    "vomiting",
+                    "diarrhea",
+                    "abdominal cramps"
+                  ],
+                  "medicine": "ORS + Ciprofloxacin",
+                  "dosage": "1 tablet 500mg",
+                  "diet": "bland diet, fluids",
+                  "precautions": "hygiene, hydration"
+                },
+                {
+                  "age_group": "adults",
+                  "gender": "female",
+                  "symptoms": [
+                    "vomiting",
+                    "diarrhea",
+                    "abdominal cramps"
+                  ],
+                  "medicine": "ORS + Ciprofloxacin",
+                  "dosage": "1 tablet 500mg",
+                  "diet": "bland diet, fluids",
+                  "precautions": "hygiene, hydration"
+                },
+                {
+                  "age_group": "oldage",
+                  "gender": "male",
+                  "symptoms": [
+                    "vomiting",
+                    "diarrhea",
+                    "abdominal cramps"
+                  ],
+                  "medicine": "ORS + Ciprofloxacin",
+                  "dosage": "1 tablet 250mg",
+                  "diet": "bland diet, fluids",
+                  "precautions": "hygiene, hydration"
+                },
+                {
+                  "age_group": "oldage",
+                  "gender": "female",
+                  "symptoms": [
+                    "vomiting",
+                    "diarrhea",
+                    "abdominal cramps"
+                  ],
+                  "medicine": "ORS + Ciprofloxacin",
+                  "dosage": "1 tablet 250mg",
+                  "diet": "bland diet, fluids",
+                  "precautions": "hygiene, hydration"
+                }
+              ]
+            },
+            {
+              "severity": "severe",
+              "groups": [
+                {
+                  "age_group": "children",
+                  "gender": "male",
+                  "symptoms": [
+                    "dehydration",
+                    "fever",
+                    "blood in stool"
+                  ],
+                  "medicine": "IV fluids + Metronidazole + hospitalization",
+                  "dosage": "5 ml or 250mg",
+                  "diet": "bland diet, fluids",
+                  "precautions": "hygiene, hydration"
+                },
+                {
+                  "age_group": "children",
+                  "gender": "female",
+                  "symptoms": [
+                    "dehydration",
+                    "fever",
+                    "blood in stool"
+                  ],
+                  "medicine": "IV fluids + Metronidazole + hospitalization",
+                  "dosage": "5 ml or 250mg",
+                  "diet": "bland diet, fluids",
+                  "precautions": "hygiene, hydration"
+                },
+                {
+                  "age_group": "adults",
+                  "gender": "male",
+                  "symptoms": [
+                    "dehydration",
+                    "fever",
+                    "blood in stool"
+                  ],
+                  "medicine": "IV fluids + Metronidazole + hospitalization",
+                  "dosage": "1 tablet 500mg",
+                  "diet": "bland diet, fluids",
+                  "precautions": "hygiene, hydration"
+                },
+                {
+                  "age_group": "adults",
+                  "gender": "female",
+                  "symptoms": [
+                    "dehydration",
+                    "fever",
+                    "blood in stool"
+                  ],
+                  "medicine": "IV fluids + Metronidazole + hospitalization",
+                  "dosage": "1 tablet 500mg",
+                  "diet": "bland diet, fluids",
+                  "precautions": "hygiene, hydration"
+                },
+                {
+                  "age_group": "oldage",
+                  "gender": "male",
+                  "symptoms": [
+                    "dehydration",
+                    "fever",
+                    "blood in stool"
+                  ],
+                  "medicine": "IV fluids + Metronidazole + hospitalization",
+                  "dosage": "1 tablet 250mg",
+                  "diet": "bland diet, fluids",
+                  "precautions": "hygiene, hydration"
+                },
+                {
+                  "age_group": "oldage",
+                  "gender": "female",
+                  "symptoms": [
+                    "dehydration",
+                    "fever",
+                    "blood in stool"
+                  ],
+                  "medicine": "IV fluids + Metronidazole + hospitalization",
+                  "dosage": "1 tablet 250mg",
+                  "diet": "bland diet, fluids",
+                  "precautions": "hygiene, hydration"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Viral",
+          "levels": [
+            {
+              "severity": "mild",
+              "groups": [
+                {
+                  "age_group": "children",
+                  "gender": "male",
+                  "symptoms": [
+                    "stomach discomfort",
+                    "nausea"
+                  ],
+                  "medicine": "ORS + light diet",
+                  "dosage": "5 ml or 250mg",
+                  "diet": "bland diet, fluids",
+                  "precautions": "hygiene, hydration"
+                },
+                {
+                  "age_group": "children",
+                  "gender": "female",
+                  "symptoms": [
+                    "stomach discomfort",
+                    "nausea"
+                  ],
+                  "medicine": "ORS + light diet",
+                  "dosage": "5 ml or 250mg",
+                  "diet": "bland diet, fluids",
+                  "precautions": "hygiene, hydration"
+                },
+                {
+                  "age_group": "adults",
+                  "gender": "male",
+                  "symptoms": [
+                    "stomach discomfort",
+                    "nausea"
+                  ],
+                  "medicine": "ORS + light diet",
+                  "dosage": "1 tablet 500mg",
+                  "diet": "bland diet, fluids",
+                  "precautions": "hygiene, hydration"
+                },
+                {
+                  "age_group": "adults",
+                  "gender": "female",
+                  "symptoms": [
+                    "stomach discomfort",
+                    "nausea"
+                  ],
+                  "medicine": "ORS + light diet",
+                  "dosage": "1 tablet 500mg",
+                  "diet": "bland diet, fluids",
+                  "precautions": "hygiene, hydration"
+                },
+                {
+                  "age_group": "oldage",
+                  "gender": "male",
+                  "symptoms": [
+                    "stomach discomfort",
+                    "nausea"
+                  ],
+                  "medicine": "ORS + light diet",
+                  "dosage": "1 tablet 250mg",
+                  "diet": "bland diet, fluids",
+                  "precautions": "hygiene, hydration"
+                },
+                {
+                  "age_group": "oldage",
+                  "gender": "female",
+                  "symptoms": [
+                    "stomach discomfort",
+                    "nausea"
+                  ],
+                  "medicine": "ORS + light diet",
+                  "dosage": "1 tablet 250mg",
+                  "diet": "bland diet, fluids",
+                  "precautions": "hygiene, hydration"
+                }
+              ]
+            },
+            {
+              "severity": "moderate",
+              "groups": [
+                {
+                  "age_group": "children",
+                  "gender": "male",
+                  "symptoms": [
+                    "vomiting",
+                    "diarrhea",
+                    "abdominal cramps"
+                  ],
+                  "medicine": "ORS + Zinc",
+                  "dosage": "5 ml or 250mg",
+                  "diet": "bland diet, fluids",
+                  "precautions": "hygiene, hydration"
+                },
+                {
+                  "age_group": "children",
+                  "gender": "female",
+                  "symptoms": [
+                    "vomiting",
+                    "diarrhea",
+                    "abdominal cramps"
+                  ],
+                  "medicine": "ORS + Zinc",
+                  "dosage": "5 ml or 250mg",
+                  "diet": "bland diet, fluids",
+                  "precautions": "hygiene, hydration"
+                },
+                {
+                  "age_group": "adults",
+                  "gender": "male",
+                  "symptoms": [
+                    "vomiting",
+                    "diarrhea",
+                    "abdominal cramps"
+                  ],
+                  "medicine": "ORS + Zinc",
+                  "dosage": "1 tablet 500mg",
+                  "diet": "bland diet, fluids",
+                  "precautions": "hygiene, hydration"
+                },
+                {
+                  "age_group": "adults",
+                  "gender": "female",
+                  "symptoms": [
+                    "vomiting",
+                    "diarrhea",
+                    "abdominal cramps"
+                  ],
+                  "medicine": "ORS + Zinc",
+                  "dosage": "1 tablet 500mg",
+                  "diet": "bland diet, fluids",
+                  "precautions": "hygiene, hydration"
+                },
+                {
+                  "age_group": "oldage",
+                  "gender": "male",
+                  "symptoms": [
+                    "vomiting",
+                    "diarrhea",
+                    "abdominal cramps"
+                  ],
+                  "medicine": "ORS + Zinc",
+                  "dosage": "1 tablet 250mg",
+                  "diet": "bland diet, fluids",
+                  "precautions": "hygiene, hydration"
+                },
+                {
+                  "age_group": "oldage",
+                  "gender": "female",
+                  "symptoms": [
+                    "vomiting",
+                    "diarrhea",
+                    "abdominal cramps"
+                  ],
+                  "medicine": "ORS + Zinc",
+                  "dosage": "1 tablet 250mg",
+                  "diet": "bland diet, fluids",
+                  "precautions": "hygiene, hydration"
+                }
+              ]
+            },
+            {
+              "severity": "severe",
+              "groups": [
+                {
+                  "age_group": "children",
+                  "gender": "male",
+                  "symptoms": [
+                    "dehydration",
+                    "fever",
+                    "blood in stool"
+                  ],
+                  "medicine": "IV fluids + symptomatic care",
+                  "dosage": "5 ml or 250mg",
+                  "diet": "bland diet, fluids",
+                  "precautions": "hygiene, hydration"
+                },
+                {
+                  "age_group": "children",
+                  "gender": "female",
+                  "symptoms": [
+                    "dehydration",
+                    "fever",
+                    "blood in stool"
+                  ],
+                  "medicine": "IV fluids + symptomatic care",
+                  "dosage": "5 ml or 250mg",
+                  "diet": "bland diet, fluids",
+                  "precautions": "hygiene, hydration"
+                },
+                {
+                  "age_group": "adults",
+                  "gender": "male",
+                  "symptoms": [
+                    "dehydration",
+                    "fever",
+                    "blood in stool"
+                  ],
+                  "medicine": "IV fluids + symptomatic care",
+                  "dosage": "1 tablet 500mg",
+                  "diet": "bland diet, fluids",
+                  "precautions": "hygiene, hydration"
+                },
+                {
+                  "age_group": "adults",
+                  "gender": "female",
+                  "symptoms": [
+                    "dehydration",
+                    "fever",
+                    "blood in stool"
+                  ],
+                  "medicine": "IV fluids + symptomatic care",
+                  "dosage": "1 tablet 500mg",
+                  "diet": "bland diet, fluids",
+                  "precautions": "hygiene, hydration"
+                },
+                {
+                  "age_group": "oldage",
+                  "gender": "male",
+                  "symptoms": [
+                    "dehydration",
+                    "fever",
+                    "blood in stool"
+                  ],
+                  "medicine": "IV fluids + symptomatic care",
+                  "dosage": "1 tablet 250mg",
+                  "diet": "bland diet, fluids",
+                  "precautions": "hygiene, hydration"
+                },
+                {
+                  "age_group": "oldage",
+                  "gender": "female",
+                  "symptoms": [
+                    "dehydration",
+                    "fever",
+                    "blood in stool"
+                  ],
+                  "medicine": "IV fluids + symptomatic care",
+                  "dosage": "1 tablet 250mg",
+                  "diet": "bland diet, fluids",
+                  "precautions": "hygiene, hydration"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

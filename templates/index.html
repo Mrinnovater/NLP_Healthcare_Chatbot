@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Healthcare Chatbot</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="chat-container">
+    <div class="chat-header">🧑‍⚕️ Your Healthcare Assistant</div>
+
+    <div class="chat-box" id="chat-box"></div>
+
+    <div class="chat-input">
+      <input type="text" id="user-input" placeholder="Type your message here..." />
+      <button onclick="sendMessage()">Send</button>
+    </div>
+  </div>
+
+  <script>
+    // Initial welcome messages
+    window.onload = () => {
+      const chatBox = document.getElementById("chat-box");
+
+      const welcomeMsg = document.createElement("div");
+      welcomeMsg.className = "bot-message";
+      welcomeMsg.textContent = "👋 Welcome to your Healthcare Assistant!";
+      chatBox.appendChild(welcomeMsg);
+
+      const infoMsg = document.createElement("div");
+      infoMsg.className = "bot-message";
+      infoMsg.innerHTML = `We specialize in helping you with:<br>
+Fever<br>
+Hypertension<br>
+Diabetes<br>
+Heart Stroke<br>
+Food Poisoning`;
+      chatBox.appendChild(infoMsg);
+    };
+
+    function sendMessage() {
+      const input = document.getElementById("user-input");
+      const chatBox = document.getElementById("chat-box");
+      const msg = input.value.trim();
+      if (!msg) return;
+
+      const userDiv = document.createElement("div");
+      userDiv.className = "user-message";
+      userDiv.textContent = "🧑‍💻 " + msg;
+      chatBox.appendChild(userDiv);
+
+      fetch("/chat", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ message: msg })
+      })
+      .then(res => res.json())
+      .then(data => {
+        const botDiv = document.createElement("div");
+        botDiv.className = "bot-message";
+        botDiv.innerHTML = data.reply;
+        chatBox.appendChild(botDiv);
+        chatBox.scrollTop = chatBox.scrollHeight;
+      });
+
+      input.value = "";
+    }
+
+    document.getElementById("user-input").addEventListener("keypress", function (e) {
+      if (e.key === "Enter") sendMessage();
+    });
+  </script>
+</body>
+</html>
