@@ -35,17 +35,6 @@ Redesign the way healthcare advice is delivered—move from static symptom check
 
 ---
 
-## 🏗️ Tech Stack
-
-| Layer     | Technology        |
-|-----------|-------------------|
-| Backend   | Python, Flask      |
-| Frontend  | HTML (Jinja Templates) |
-| Data      | Custom JSON Dataset |
-| Deployment | Localhost (Development Mode) |
-
----
-
 ## ✅ How It Works
 
 1. User begins with a message (e.g., _"I have a headache and fever"_)
@@ -59,8 +48,4 @@ Redesign the way healthcare advice is delivered—move from static symptom check
    - Diet Plan
    - Precaution Tips
 5. Graceful session termination on “exit” or conversation end
-
----
-
-## 📁 Project Structure
 
